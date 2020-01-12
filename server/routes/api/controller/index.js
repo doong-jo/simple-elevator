@@ -1,0 +1,1 @@
+export { addMove } from './addMove';

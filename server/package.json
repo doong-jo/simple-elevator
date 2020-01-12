@@ -1,0 +1,35 @@
+{
+  "name": "h2020-129-doong-jo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-node app.js",
+    "dev": "nodemon --exec babel-node app.js",
+    "test": "jest",
+    "lint": "eslint . --cache --fix --ext .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hogangnono/h2020-129-doong-jo.git"
+  },
+  "author": "Sungdong Jo",
+  "jest": {
+    "verbose": true,
+    "coverage": true
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/preset-env": "^7.7.7"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "mongoose": "^5.6.12",
+    "nodemon": "^1.19.2"
+  }
+}
